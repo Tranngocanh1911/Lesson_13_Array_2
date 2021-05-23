@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dictionary</title>
+</head>
+<body>
+<script>
+  let English = ['Computer', 'Search', 'Hand', 'Leg']
+  let Vietnamese = ['Máy tính', 'Tìm kiếm', 'Tay', 'Chân']
+  let str = prompt('Translate this word to Vietnamese: ')
+  str = str.toString();
+  for (let i = 0; i < English.length; i++) {
+      if (str === English[i]) {
+          alert(Vietnamese[i])
+      }
+
+  }
+</script>
+</body>
+</html>
